@@ -1,0 +1,12 @@
+# System files
+.DS_Store
+._*
+Thumbs.db
+Desktop.ini
+
+# Editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
