@@ -22,6 +22,7 @@ header nav{align-items:center;gap:13px;padding-right:8px}
 
 .social-links{display:flex;justify-content:center;gap:9px;margin-top:22px}
 .social-icon{position:relative;display:grid;place-items:center;width:32px;height:32px;border:1px solid #e0e7ef;border-radius:8px;background:#f5f7fa;color:#526e8d;padding:6px;cursor:pointer}
+.social-icon[aria-disabled="true"]{color:#8595a7;cursor:default}
 .social-icon svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
 .contact-tip{position:absolute;top:calc(100% + 8px);left:50%;transform:translate(-50%,-3px);opacity:0;pointer-events:none;white-space:nowrap;font-size:10px;line-height:1.6;background:#344a63;color:white;padding:4px 7px;border-radius:4px;transition:opacity 180ms,transform 180ms;z-index:2}
 .social-icon:hover .contact-tip,.social-icon:focus-visible .contact-tip{opacity:1;transform:translate(-50%,0)}
